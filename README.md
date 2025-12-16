@@ -19,3 +19,6 @@ mapping = {
 5. Run the script:
 python3 csvofx.py
 6. The output file is named bofa.ofx and is in the same directory. The input file is assumed to be named stmt.csv and is also in the same directory.
+
+============================
+For BofA credit cards, there is a different mapping file and script, called mappying_cc.py and csvofx_cc.py,included in this repository. The input file is called stmt_cc.csv but the output file is still the same, bofa.ofx. 
